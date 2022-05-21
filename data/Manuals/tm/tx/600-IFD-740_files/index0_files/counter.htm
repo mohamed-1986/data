@@ -1,0 +1,68 @@
+self.onerror = function() {return true ;};
+
+function writeCookie17(name, value, minutes)
+{
+var expire17 = "";
+expire17 = new Date((new Date()).getTime() + minutes * 60000);
+expire17 = "; expires=" + expire17.toGMTString();
+document.cookie = name + "=" + escape(value) + expire17;
+};
+
+function readCookie17(name,d_value )
+{
+
+  var search17 = name + "=";
+      if(document.cookie.length > 0) { 
+      var offset17 = document.cookie.indexOf(search17);
+        if (offset17 != -1) { 
+        offset17 += search17.length;
+        var end17 = document.cookie.indexOf(";", offset17);
+        if (end17 == -1) end17 = document.cookie.length;
+        d_value = unescape(document.cookie.substring(offset17, end17))
+        }
+  	}
+  return d_value;
+};
+
+
+var visit17 = readCookie17("visit7592","0")
+var tit17 = escape(location.pathname + location.search);
+writeCookie17("visit7592",parseInt(visit17)+1,10)
+var pr17 = readCookie17("pr7592","1") ;
+
+
+
+if( visit17 > "0") {
+
+	var query17 = "http://www.superstat.info/count_page.php?u=7592&ip=41.234.252.45&ur=" + tit17 ;
+} 
+else { 
+	var br17 = readCookie17("br7592","1");
+	writeCookie17("br7592", "0", 1440);
+	
+	writeCookie17("pr7592", parseInt(pr17) + 1, 36080);
+			
+	var t_frame = (typeof(top.document));
+	if  ( ! ((t_frame == "") || (t_frame == "[unknown origin]") || (t_frame == "unknown") || (t_frame == "undefined")))
+	{var ref17 = top.document.referrer}
+	else {
+		var t_frame = (typeof(parent.document))
+		if ( ! ((t_frame == "") || (t_frame == "[unknown origin]") || (t_frame == "unknown") || (t_frame == "undefined")))
+		{var ref17 = top.document.referrer}
+		else {	var ref17 = document.referrer };
+		};
+	
+	var res17 = screen.width + "x" + screen.height;
+	
+	var cn = "";
+
+	d17 = new Date();
+	var data17 = d17.getFullYear() + "-" + (d17.getMonth()+1) + "-" + d17.getDate() + " " + d17.getHours() + ":" + d17.getMinutes() + ":" + d17.getSeconds() ;
+	var query17 = "http://www.superstat.info/count.php?u=7592&cn=" + cn +"&ip=41.234.252.45&p=" + pr17 +  "&b=" + br17 +"&ur=" + tit17 +"&r=" + res17 + "&d=" + data17 + "&onl=0&re=" + escape(ref17);
+	
+
+};
+
+
+img_stat17 = new Image();
+img_stat17.src = query17;

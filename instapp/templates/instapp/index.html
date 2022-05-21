@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+
+<div class="container h3 mt-3" hidden> <a href="{% url 'add_inst' %}"> add inst </a></div>
+
+{% if user.is_authenticated %}
+<p>
+<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Add Instrument
+</a>
+
+</p>
+{% endif %}
+<div class="collapse" id="collapseExample">
+    <div class="card card-body">
+        <form method="get" action="{% url 'add_inst' %}">
+            {{units}}
+            <span> {{c}}</span>
+            <span> {{t}}</span>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+
+<div>
+    <ul>
+        {% for i in added_items %}
+        <li> <a href="{{i.get_absolute_url}}"> {{i.tag}} </a> </li> 
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock%}

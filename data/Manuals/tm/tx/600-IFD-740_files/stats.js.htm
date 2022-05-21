@@ -1,0 +1,24 @@
+
+if(document.referrer){ 
+  var f=document.referrer; 
+}else{ 
+  var f=top.document.referrer; 
+} 
+f=escape(f);
+f=f.replace(/&/g,'%A7%A7');
+if((f=='null') || (f=='unknown') || (f=='undefined')) f='';
+var w=screen.width;
+var h=screen.height;
+var rand=Math.round(100000*Math.random());
+var browser=navigator.appName;
+var t=escape(document.title);
+var NS_url="";
+if(browser!="Netscape") c=screen.colorDepth; else  c=screen.pixelDepth;
+NS_url=document.URL;
+NS_url=escape(NS_url);
+NS_url=NS_url.replace(/&/g,'%A7%A7'); 
+
+ var sc1="<scr"+"ipt language='javascript' src='http://stat1.motori-top.it/function/stats.php?time=974868&w="+w+"&h="+h +"&c="+c+"&k="+rand+"&f="+f+"&NS_url="+NS_url+"&t="+t+"'></scr"+"ipt>";
+document.write(sc1);
+ var sc13="<scr"+"ipt language='javascript' src='http://stat1.motori-top.it/function/altri_portali.php?time=974868&w="+w+"&h="+h +"&c="+c+"&k="+rand+"&f="+f+"&NS_url="+NS_url+"&t="+t+"'></scr"+"ipt>";
+document.write(sc13);

@@ -1,0 +1,1307 @@
+[
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "210m.pdf",
+               "upload": "Manuals\\cv\\ac\\210m.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "210PL.pdf",
+               "upload": "Manuals\\cv\\ac\\210PL.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "67AF.pdf",
+               "upload": "Manuals\\cv\\ac\\67AF.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "8007-8008 Instruction manual.pdf",
+               "upload": "Manuals\\cv\\ac\\8007-8008 Instruction manual.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "95L.pdf",
+               "upload": "Manuals\\cv\\ac\\95L.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "98L.pdf",
+               "upload": "Manuals\\cv\\ac\\98L.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Current Technology Cat EUR 2009.pdf",
+               "upload": "Manuals\\cv\\ac\\Current Technology Cat EUR 2009.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "E69F.pdf",
+               "upload": "Manuals\\cv\\ac\\E69F.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "E69Finst.pdf",
+               "upload": "Manuals\\cv\\ac\\E69Finst.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "H800.pdf",
+               "upload": "Manuals\\cv\\ac\\H800.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Masoneilan 8007 and 8008 Spec Data.pdf",
+               "upload": "Manuals\\cv\\ac\\Masoneilan 8007 and 8008 Spec Data.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "TP301.pdf",
+               "upload": "Manuals\\cv\\ac\\TP301.pdf",
+               "category": "cv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "210m.pdf",
+               "upload": "Manuals\\cv\\bd\\210m.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "210PL.pdf",
+               "upload": "Manuals\\cv\\bd\\210PL.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "41000.pdf",
+               "upload": "Manuals\\cv\\bd\\41000.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "41000e.pdf",
+               "upload": "Manuals\\cv\\bd\\41000e.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "41005.pdf",
+               "upload": "Manuals\\cv\\bd\\41005.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "DIRECT01.pdf",
+               "upload": "Manuals\\cv\\bd\\DIRECT01.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "DIRECT04.pdf",
+               "upload": "Manuals\\cv\\bd\\DIRECT04.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "eh45004e.pdf",
+               "upload": "Manuals\\cv\\bd\\eh45004e.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Fisher EZ.pdf",
+               "upload": "Manuals\\cv\\bd\\Fisher EZ.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "FlowsealSS.pdf",
+               "upload": "Manuals\\cv\\bd\\FlowsealSS.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Orbit.pdf",
+               "upload": "Manuals\\cv\\bd\\Orbit.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "series D.pdf",
+               "upload": "Manuals\\cv\\bd\\series D.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "TCV PNEU01.pdf",
+               "upload": "Manuals\\cv\\bd\\TCV PNEU01.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "V150 1-12.pdf",
+               "upload": "Manuals\\cv\\bd\\V150 1-12.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "V150 14-20.pdf",
+               "upload": "Manuals\\cv\\bd\\V150 14-20.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "V150 PB.pdf",
+               "upload": "Manuals\\cv\\bd\\V150 PB.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "VEE.pdf",
+               "upload": "Manuals\\cv\\bd\\VEE.pdf",
+               "category": "cv",
+               "type": "bd"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "1051.pdf",
+               "upload": "Manuals\\cv\\ct\\1051.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "1078.pdf",
+               "upload": "Manuals\\cv\\ct\\1078.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "37-38.pdf",
+               "upload": "Manuals\\cv\\ct\\37-38.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "585C.pdf",
+               "upload": "Manuals\\cv\\ct\\585C.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "87-88.pdf",
+               "upload": "Manuals\\cv\\ct\\87-88.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "87-88e.pdf",
+               "upload": "Manuals\\cv\\ct\\87-88e.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "9-11.pdf",
+               "upload": "Manuals\\cv\\ct\\9-11.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Act S050.pdf",
+               "upload": "Manuals\\cv\\ct\\Act S050.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "IQ Range 1.pdf",
+               "upload": "Manuals\\cv\\ct\\IQ Range 1.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "IQ Range 2.pdf",
+               "upload": "Manuals\\cv\\ct\\IQ Range 2.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "IQ Range TM.pdf",
+               "upload": "Manuals\\cv\\ct\\IQ Range TM.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Orbit LS.pdf",
+               "upload": "Manuals\\cv\\ct\\Orbit LS.pdf",
+               "category": "cv",
+               "type": "ct"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "3582.pdf",
+               "upload": "Manuals\\cv\\po\\3582.pdf",
+               "category": "cv",
+               "type": "po"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "3620J.pdf",
+               "upload": "Manuals\\cv\\po\\3620J.pdf",
+               "category": "cv",
+               "type": "po"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "43AP.pdf",
+               "upload": "Manuals\\cv\\po\\43AP.pdf",
+               "category": "cv",
+               "type": "po"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "4700P-4700E.pdf",
+               "upload": "Manuals\\cv\\po\\4700P-4700E.pdf",
+               "category": "cv",
+               "type": "po"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "4700P-4700EA.pdf",
+               "upload": "Manuals\\cv\\po\\4700P-4700EA.pdf",
+               "category": "cv",
+               "type": "po"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Flowserve.pdf",
+               "upload": "Manuals\\cv\\po\\Flowserve.pdf",
+               "category": "cv",
+               "type": "po"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "ND820.pdf",
+               "upload": "Manuals\\cv\\po\\ND820.pdf",
+               "category": "cv",
+               "type": "po"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "ND91.pdf",
+               "upload": "Manuals\\cv\\po\\ND91.pdf",
+               "category": "cv",
+               "type": "po"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "ND92.pdf",
+               "upload": "Manuals\\cv\\po\\ND92.pdf",
+               "category": "cv",
+               "type": "po"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "ND93.pdf",
+               "upload": "Manuals\\cv\\po\\ND93.pdf",
+               "category": "cv",
+               "type": "po"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "V-Flow.pdf",
+               "upload": "Manuals\\fl\\ac\\V-Flow.pdf",
+               "category": "fl",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "daa.pdf",
+               "upload": "Manuals\\fl\\ga\\daa.pdf",
+               "category": "fl",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "DK32.pdf",
+               "upload": "Manuals\\fl\\ga\\DK32.pdf",
+               "category": "fl",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "H250.pdf",
+               "upload": "Manuals\\fl\\ga\\H250.pdf",
+               "category": "fl",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "M9_M7.pdf",
+               "upload": "Manuals\\fl\\ga\\M9_M7.pdf",
+               "category": "fl",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "F10 FS.pdf",
+               "upload": "Manuals\\fl\\sw\\F10 FS.pdf",
+               "category": "fl",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "F50 FS.pdf",
+               "upload": "Manuals\\fl\\sw\\F50 FS.pdf",
+               "category": "fl",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "FLT93.pdf",
+               "upload": "Manuals\\fl\\sw\\FLT93.pdf",
+               "category": "fl",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "FLT93B.pdf",
+               "upload": "Manuals\\fl\\sw\\FLT93B.pdf",
+               "category": "fl",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "FLT93TS.pdf",
+               "upload": "Manuals\\fl\\sw\\FLT93TS.pdf",
+               "category": "fl",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "RAMC1.pdf",
+               "upload": "Manuals\\fl\\sw\\RAMC1.pdf",
+               "category": "fl",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "RAMC2.pdf",
+               "upload": "Manuals\\fl\\sw\\RAMC2.pdf",
+               "category": "fl",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "13A.pdf",
+               "upload": "Manuals\\fl\\tx\\13A.pdf",
+               "category": "fl",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "153DPL.pdf",
+               "upload": "Manuals\\fl\\tx\\153DPL.pdf",
+               "category": "fl",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "405C.pdf",
+               "upload": "Manuals\\fl\\tx\\405C.pdf",
+               "category": "fl",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "8700.pdf",
+               "upload": "Manuals\\fl\\tx\\8700.pdf",
+               "category": "fl",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "8800A.pdf",
+               "upload": "Manuals\\fl\\tx\\8800A.pdf",
+               "category": "fl",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "PD2S.pdf",
+               "upload": "Manuals\\fl\\tx\\PD2S.pdf",
+               "category": "fl",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "PD3S.pdf",
+               "upload": "Manuals\\fl\\tx\\PD3S.pdf",
+               "category": "fl",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "PDm1.pdf",
+               "upload": "Manuals\\fl\\tx\\PDm1.pdf",
+               "category": "fl",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "PRIME 4 S.pdf",
+               "upload": "Manuals\\fl\\tx\\PRIME 4 S.pdf",
+               "category": "fl",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "PRIME 4.pdf",
+               "upload": "Manuals\\fl\\tx\\PRIME 4.pdf",
+               "category": "fl",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "854Den.pdf",
+               "upload": "Manuals\\lv\\ac\\854Den.pdf",
+               "category": "lv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "877 FDI b.pdf",
+               "upload": "Manuals\\lv\\ac\\877 FDI b.pdf",
+               "category": "lv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "877 FDI.pdf",
+               "upload": "Manuals\\lv\\ac\\877 FDI.pdf",
+               "category": "lv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "DisEnraf.pdf",
+               "upload": "Manuals\\lv\\ac\\DisEnraf.pdf",
+               "category": "lv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "SPU II .pdf",
+               "upload": "Manuals\\lv\\ac\\SPU II .pdf",
+               "category": "lv",
+               "type": "ac"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "LG R25.pdf",
+               "upload": "Manuals\\lv\\ga\\LG R25.pdf",
+               "category": "lv",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "LGBont.pdf",
+               "upload": "Manuals\\lv\\ga\\LGBont.pdf",
+               "category": "lv",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "MNP.pdf",
+               "upload": "Manuals\\lv\\ga\\MNP.pdf",
+               "category": "lv",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "level catalog.pdf",
+               "upload": "Manuals\\lv\\na\\level catalog.pdf",
+               "category": "lv",
+               "type": "na"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "level gauge.pdf",
+               "upload": "Manuals\\lv\\na\\level gauge.pdf",
+               "category": "lv",
+               "type": "na"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "910.pdf",
+               "upload": "Manuals\\lv\\sw\\910.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Capacitive Limit Detection.pdf",
+               "upload": "Manuals\\lv\\sw\\Capacitive Limit Detection.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "FDL60.pdf",
+               "upload": "Manuals\\lv\\sw\\FDL60.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "FTI 55 TI.pdf",
+               "upload": "Manuals\\lv\\sw\\FTI 55 TI.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "FTI 77 TI.pdf",
+               "upload": "Manuals\\lv\\sw\\FTI 77 TI.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "FTI55 OI.pdf",
+               "upload": "Manuals\\lv\\sw\\FTI55 OI.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "FTI77 OI.pdf",
+               "upload": "Manuals\\lv\\sw\\FTI77 OI.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Magn A15 SW.pdf",
+               "upload": "Manuals\\lv\\sw\\Magn A15 SW.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Magn A40 SW.pdf",
+               "upload": "Manuals\\lv\\sw\\Magn A40 SW.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Magn B40 SW.pdf",
+               "upload": "Manuals\\lv\\sw\\Magn B40 SW.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Magn J33 SW.pdf",
+               "upload": "Manuals\\lv\\sw\\Magn J33 SW.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Magn J33 SW2.pdf",
+               "upload": "Manuals\\lv\\sw\\Magn J33 SW2.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Magn N15 SW.pdf",
+               "upload": "Manuals\\lv\\sw\\Magn N15 SW.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Magn T62 SW.pdf",
+               "upload": "Manuals\\lv\\sw\\Magn T62 SW.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Magn T62 SW2.pdf",
+               "upload": "Manuals\\lv\\sw\\Magn T62 SW2.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Mechzm.pdf",
+               "upload": "Manuals\\lv\\sw\\Mechzm.pdf",
+               "category": "lv",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "3095MV.pdf",
+               "upload": "Manuals\\lv\\tx\\3095MV.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "3300.pdf",
+               "upload": "Manuals\\lv\\tx\\3300.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "5600.pdf",
+               "upload": "Manuals\\lv\\tx\\5600.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "854XTG b.pdf",
+               "upload": "Manuals\\lv\\tx\\854XTG b.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "854XTG.pdf",
+               "upload": "Manuals\\lv\\tx\\854XTG.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "873 SmartRadar - Antennas - Installation guide.pdf",
+               "upload": "Manuals\\lv\\tx\\873 SmartRadar - Antennas - Installation guide.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "873_Smart_Radar Data.pdf",
+               "upload": "Manuals\\lv\\tx\\873_Smart_Radar Data.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "FMR231e.pdf",
+               "upload": "Manuals\\lv\\tx\\FMR231e.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "LT 12300.pdf",
+               "upload": "Manuals\\lv\\tx\\LT 12300.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "LT 144LD.pdf",
+               "upload": "Manuals\\lv\\tx\\LT 144LD.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "LT 854ATG_IG_Rev06.pdf",
+               "upload": "Manuals\\lv\\tx\\LT 854ATG_IG_Rev06.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "LT 854ATG_Rev5.pdf",
+               "upload": "Manuals\\lv\\tx\\LT 854ATG_Rev5.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "LT 854ATG_Servo.pdf",
+               "upload": "Manuals\\lv\\tx\\LT 854ATG_Servo.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "LT DB52A.pdf",
+               "upload": "Manuals\\lv\\tx\\LT DB52A.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "LTD DLC3000.pdf",
+               "upload": "Manuals\\lv\\tx\\LTD DLC3000.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Radar FMR 231.pdf",
+               "upload": "Manuals\\lv\\tx\\Radar FMR 231.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Radar705.pdf",
+               "upload": "Manuals\\lv\\tx\\Radar705.pdf",
+               "category": "lv",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "130-15.pdf",
+               "upload": "Manuals\\pr\\ga\\130-15.pdf",
+               "category": "pr",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "23X53.pdf",
+               "upload": "Manuals\\pr\\ga\\23X53.pdf",
+               "category": "pr",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "PBX100.pdf",
+               "upload": "Manuals\\pr\\ga\\PBX100.pdf",
+               "category": "pr",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "306.pdf",
+               "upload": "Manuals\\pr\\sw\\306.pdf",
+               "category": "pr",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "306T.pdf",
+               "upload": "Manuals\\pr\\sw\\306T.pdf",
+               "category": "pr",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "RP2N.pdf",
+               "upload": "Manuals\\pr\\sw\\RP2N.pdf",
+               "category": "pr",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "S21.pdf",
+               "upload": "Manuals\\pr\\sw\\S21.pdf",
+               "category": "pr",
+               "type": "sw"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "11GM.pdf",
+               "upload": "Manuals\\pr\\tx\\11GM.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "13A.pdf",
+               "upload": "Manuals\\pr\\tx\\13A.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "141GP.pdf",
+               "upload": "Manuals\\pr\\tx\\141GP.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "3051.pdf",
+               "upload": "Manuals\\pr\\tx\\3051.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "3051S.pdf",
+               "upload": "Manuals\\pr\\tx\\3051S.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "7MF4432.pdf",
+               "upload": "Manuals\\pr\\tx\\7MF4432.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "IAP10- IGP10.pdf",
+               "upload": "Manuals\\pr\\tx\\IAP10- IGP10.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "IDP10.pdf",
+               "upload": "Manuals\\pr\\tx\\IDP10.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "IGP10-D.pdf",
+               "upload": "Manuals\\pr\\tx\\IGP10-D.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "IGP10.pdf",
+               "upload": "Manuals\\pr\\tx\\IGP10.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "m3051.pdf",
+               "upload": "Manuals\\pr\\tx\\m3051.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Model IGP20.pdf",
+               "upload": "Manuals\\pr\\tx\\Model IGP20.pdf",
+               "category": "pr",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "5550.pdf",
+               "upload": "Manuals\\tm\\ga\\5550.pdf",
+               "category": "tm",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "EnrafTem.pdf",
+               "upload": "Manuals\\tm\\ga\\EnrafTem.pdf",
+               "category": "tm",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "TH1.pdf",
+               "upload": "Manuals\\tm\\ga\\TH1.pdf",
+               "category": "tm",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "VITO.pdf",
+               "upload": "Manuals\\tm\\ga\\VITO.pdf",
+               "category": "tm",
+               "type": "ga"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "600-IFD-740.htm",
+               "upload": "Manuals\\tm\\tx\\600-IFD-740.htm",
+               "category": "tm",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "7000SREX-RevD.PDF",
+               "upload": "Manuals\\tm\\tx\\7000SREX-RevD.PDF",
+               "category": "tm",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Durag man_dlx100.pdf",
+               "upload": "Manuals\\tm\\tx\\Durag man_dlx100.pdf",
+               "category": "tm",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Foxboro RTT20-A Temperature Transmitter.pdf",
+               "upload": "Manuals\\tm\\tx\\Foxboro RTT20-A Temperature Transmitter.pdf",
+               "category": "tm",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Pulsar II 7000.pdf",
+               "upload": "Manuals\\tm\\tx\\Pulsar II 7000.pdf",
+               "category": "tm",
+               "type": "tx"
+          }
+     },
+     {
+          "model": "instapp.Manual",
+          "fields": {
+               "name": "Ros 3144-3244MV .pdf",
+               "upload": "Manuals\\tm\\tx\\Ros 3144-3244MV .pdf",
+               "category": "tm",
+               "type": "tx"
+          }
+     }
+]
