@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static%}
+
+<div class = 'container'>
+    <div class = 'my-4'>
+        <form method="get" action="{% url 'manual_categories_url' %}">
+            <span> {{cat}}</span>    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class ="h3 ">
+        {% for i in qs %}
+        <a href="{% get_media_prefix %}{{i.upload}}"> {{i.name}} </a> <br>
+        {% endfor %}
+    </div>
+    
+</div>
+
+
+{% endblock%}

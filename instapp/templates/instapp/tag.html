@@ -10,7 +10,7 @@
     </h3>
 
 
-    <table class="table mt-3 ">
+    <table class="table mt-3 table-hover">
        
         <tbody>
           {% if object.pid %}
@@ -35,7 +35,10 @@
             <td>DataSheet</td>
             <td>
                 {% for d in datasheets_list %}
-                <a href="{% get_media_prefix %}{{d.upload}}"> {{d.name}} </a>
+                {% if d.type == 'gn' %}
+                General:
+                {% endif %}
+                <a href="{% get_media_prefix %}{{d.upload}}"> {{d.name}} </a> <br>
                 {% endfor %}
             </td>
           </tr>

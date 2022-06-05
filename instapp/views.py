@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from instapp.forms import *
-from .models import Inst
+from .models import *
 from django.views.generic import TemplateView, ListView, DetailView
 from django.http import HttpResponse, Http404
 from django.forms import modelformset_factory
@@ -9,12 +9,21 @@ from django.contrib.auth import authenticate, login
 
 from django.contrib import messages
 
+with open('units.json') as f:
+    data = json.load(f)
+my_units = data['units']
+
 def HomeView(request):
     u = unit_selection()
-    query = Inst.objects.all().order_by('date_added')
+    query = Inst.objects.all().order_by('-date_added')
     t = type_selection()
     c = cat_selection()
-    return render(request, 'index.html', {'units':u, 'added_items': query, 't':t, 'c': c})
+    all_units = my_units
+    return render(request, 'index.html', {'units':u,
+                                        'added_items': query, 
+                                        't':t,
+                                        'c': c,
+                                        'all_units' : all_units})
 
 
 class Search(ListView):
@@ -138,6 +147,41 @@ def add_manual_to_inst(request, slug):
         return render(request, 'add_manual_to_tag.html', {'form': form})
 
 
+def pid_unit_filtered(request):
+    u = unit_selection()
+    try:
+        unit = request.GET['unit']
+        qs = Pid.objects.filter(unit = unit).all()
+    except:
+        unit = None
+        qs= Pid.objects.all()
+    return render(request , 'pid_unit_filtered.html', {'qs':qs,'u': u}) 
+
+def pid_pk(request, unit):
+    qs = Pid.objects.filter(unit = unit).all()
+    return render(request, 'pid.html', {'qs': qs, 'unit': unit})
+
+def check_cat(cat):
+    if len(cat) > 2:
+        d= dict(( y,x ) for x ,y in manual_category)
+        return d[cat]
+    elif len(cat) == 2:
+        return cat
+
+def manual_pk(request, cat):
+    ch_cat = check_cat(cat)
+    qs = Manual.objects.filter(category = ch_cat).all()
+    return render(request, 'manual.html', {'qs': qs, 'category': cat})
+
+def category_of_manual(request):
+    cat_widget = cat_selection()
+    try:
+        cat = request.GET['cat']
+        qs = Manual.objects.filter(category = cat).all()
+    except:
+        cat = None
+        qs = Manual.objects.all()
+    return render(request, 'manual_categories.html', {'cat': cat_widget, 'qs': qs})
 # def add_ins(request):
 #     if request.method == 'POST':
 #         form = data_entry_form(request.POST)  if f.cleaned_data['manual']:

@@ -1,0 +1,3 @@
+{% for d in data %}
+<li> <a href="{% url 'pid_pk_url' unit=d %}" class="dropdown-item"> {{ d }} </a> </li>
+{% endfor %}

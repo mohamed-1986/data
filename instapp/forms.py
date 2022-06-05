@@ -1,4 +1,3 @@
-from typing import get_type_hints
 from unicodedata import category
 from django.forms import ModelForm, Form
 from .models import *

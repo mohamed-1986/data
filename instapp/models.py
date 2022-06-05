@@ -1,16 +1,19 @@
 from random import choices
 from django.db import models
-import re
+import re , json
 from django.urls import reverse
 from datetime import datetime as d
-import pytz
+# import pytz
 
-cairo_time = pytz.timezone('Africa/Cairo')
+# cairo_time = pytz.timezone('Africa/Cairo')
 
-unit_choice = [
-    ('02','02'),
-    ('06','06')
-]
+with open('units.json') as f:
+    data = json.load(f)
+
+unit_choice = []
+for i in data['units']:
+    unit_choice.append((i, i))
+
 
 def re_pid(i, filename):
     return 'PID/{}/{}'.format(i.unit, filename)
@@ -112,7 +115,8 @@ class Inst(models.Model):
     wire = models.OneToOneField(TwoWire ,null =True, on_delete=models.CASCADE,blank=True )       #One To One
     datasheet = models.ManyToManyField(Datasheet, related_name= 'datasheets' , blank=True) # Many To Many
     scaff = models.BooleanField(default= False)
-    date_added = models.DateTimeField(default=d.now(cairo_time))
+    # date_added = models.DateTimeField(default=d.now(cairo_time))
+    date_added = models.DateTimeField(auto_now= True )
 
     def __str__(self):
         return self.tag
