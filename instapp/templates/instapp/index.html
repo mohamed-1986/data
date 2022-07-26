@@ -6,14 +6,14 @@
 <div class="container h3 mt-3" hidden> <a href="{% url 'add_inst' %}"> add inst </a></div>
 
 {% if user.is_authenticated %}
-<p>
-<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-    Add Instrument
-</a>
-
-</p>
+<div hidden>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#add-new-item" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Add Instrument
+    </a>
+</div>
 {% endif %}
-<div class="collapse" id="collapseExample">
+
+<div class="collapse" id="add-new-item">
     <div class="card card-body">
         <form method="get" action="{% url 'add_inst' %}">
             {{units}}
@@ -25,6 +25,8 @@
     </div>
 </div>
 
+<!-- list of recently added items -->
+<div class="h4">Recently added</div>
 <div>
     <ul>
         {% for i in added_items %}

@@ -3,17 +3,84 @@
 {% load static%}
 
 <div class = 'container'>
-    <div class = 'my-4'>
+    <div class = 'my-4 float-start h4'>
         Manuals of {{category}}
-    
     </div>
-    <div class ="h3 mt-3">
-        {% for i in qs %}
-        <a href="{% get_media_prefix %}{{i.upload}}"> {{i.name}} </a> <br>
+
+    {% if user.is_authenticated %}
+    <div class="float-end">
+        <a href="{% url 'add_manual_url' %}"><button type="button" class = 'btn btn-primary'>Add a new Manual</button></a>
+        
+        <button id = 'btn-del-man' type="button" class = 'btn btn-danger'>Delete Manual</button>
+    </div>
+    {% endif %}
+
+    <table class="table table-hover" hidden>
+        <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Instrument Type</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <!-- unpack dict  -->
+            {% for dic in detailed_types %}
+            <!-- loop of types -->
+                {% for key, value in dic.items %}
+                <!-- loop of manuals inside each type -->
+                    {% for i in value %}
+                    <tr>
+                        <th scope="row">{{ forloop.counter }}</th>
+                        <td>{{ i }}</td>
+                        <td>{{ key }}</td>
+                    </tr>
+                    {% endfor %}
+                    <thead></thead>
+                {% endfor %}
+                
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <div class="col-8">
+    <!-- unpack dict  -->
+    {% for dic in detailed_types %}
+    <!-- loop of types -->
+        {% for key, value in dic.items %}
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Instrument Type</th>
+                <th scope="col" id="img-trash"  style="display: none;">  delete</th>
+            </tr>
+            </thead>
+            <tbody>
+                <!-- loop of manuals inside each type -->
+                {% for i in value %}
+                <tr>
+                    <th scope="row" class="col-1">{{ forloop.counter }}</th>
+                    <td > <a href="{% get_media_prefix %}{{i.upload}}">{{ i }} </a> </td>
+                    <td class="col-3">{{ key }}</td>
+                    <td class="col-1">
+                        <a href="{% url 'delete_man' pk=i.pk %}">
+                            <div id="img-trash"  style="display: none;">
+                                <img src="{% static 'svg/trash.svg' %}" alt="Delete" />
+                            </div>
+                        </a>    
+                    </td>
+                </tr>
+                
+                {% endfor %}
+            </tbody>
+        </table>
         {% endfor %}
+    {% endfor %}
     </div>
-    
 </div>
 
-
+<script src= "{%static 'js/manHome.js' %} "></script>
 {% endblock%}

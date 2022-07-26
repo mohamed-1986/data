@@ -4,11 +4,17 @@
 {% block content %}
 
 {% load static%}
-<div class="col-8">
+<div class="col-lg-8 row">
     <h3>
-        Tag No is {{ object.tag }}
+        <b><u>{{ object.tag }}:</u></b>
+        <div class="float-end"> 
+          
+          <a href="{% url 'edit_tag' slug=object.tag %}"><button type="button" class="btn btn-primary">Edit</button></a>
+          
+          <a href="{% url 'delete_tag' slug=object.tag %}"><button type="button" class="btn btn-danger">Delete</button></a>
+        </div>
+          
     </h3>
-
 
     <table class="table mt-3 table-hover">
        
@@ -16,7 +22,7 @@
           {% if object.pid %}
           <tr>
 
-            <td>P&ID </td>
+            <td> <b>P&ID</b>  </td>
             <td> <a href="{% get_media_prefix %}{{object.pid.upload}}"> {{object.pid.name}} </a> </td>
 
           </tr>
@@ -25,14 +31,14 @@
           {% if object.wire %}
           <tr>
 
-            <td>Two Wire Diagram </td>
+            <td> <b>Two Wire Diagram </b> </td>
             <td> <a href="{% get_media_prefix %}{{object.wire.upload}}">  {{object.wire.tag}} </a> </td>
           </tr>
           {% endif %}
 
           {% if datasheets_list|length > 0 %}
           <tr>
-            <td>DataSheet</td>
+            <td> <b> DataSheet</b></td>
             <td>
                 {% for d in datasheets_list %}
                 {% if d.type == 'gn' %}
@@ -47,14 +53,14 @@
 
           
           <tr>
-            <td>Manuals </td>
+            <td> <b> Manuals </b></td> 
             <td>
                 {% for m in manuals_list %}
                 <a href="{% get_media_prefix %}{{m.upload}}"> {{m.name}} </a> <br>
                 {% endfor %}
                 <!-- <span class="float-end">add</span> -->
                 {% if user.is_authenticated %}
-                <a data-bs-toggle="collapse"  class="float-end" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <a data-bs-toggle="collapse"  class="float-end" href="#Category_filter" aria-expanded="false" aria-controls="collapseExample">
                   add manual
                 </a>
                 {% endif %}
@@ -64,16 +70,20 @@
           
         </tbody>
     </table>
-    <div class="collapse" id="collapseExample">
+    <div class="collapse" id="Category_filter">
       <div class="card card-body">
         <form method="get" action="{% url 'add_manual' slug=object.tag %}">
-            <span> {{c}}</span>
-            <span> {{t}}</span>
-            
-            <input type="submit" value="Submit">
+          <span> {{c}}</span>
+          <span> {{t}}</span>
+          
+          <input type="submit" value="Submit">
         </form>
+      </div>
     </div>
-    </div>
+    <p class="my-5">
+      <b> Description:</b> <br>
+      {{object.description}}
+    </p>
 </div>
 
 {% endblock%}

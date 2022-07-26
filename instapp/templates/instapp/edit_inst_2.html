@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<div class ='h4 row'>
+    <div class = 'mb-5 border col-lg-4 order-lg-last text-center'>
+        <a class="btn btn-primary " data-bs-toggle="collapse" href="#apply-filter" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Filter
+        </a>
+
+        <div class="collapse" id="apply-filter">
+            <form action="" method="get">
+                <br>
+                {{units}} <br> <br>
+                <span> {{c}}</span> <br><br>
+                <span> {{t}}</span> <br><br>
+        <!--<input type="submit" value="Submit"> -->
+            </form>
+        </div>
+        
+    </div>
+
+    <div class ='border mb-5 col-lg-8 '>
+        <h3>Editing</h3>
+        <form  method="post" >
+            {% csrf_token %}
+            {{form.as_p}}
+            <input type="submit" value="Submit" class="float-end">
+        </form>
+    </div>
+
+    
+
+    
+
+    
+    
+    
+</div>
+<script src= "{%static 'js/edit_inst.js' %} "></script>
+{% endblock%}

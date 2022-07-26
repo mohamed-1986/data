@@ -3,17 +3,45 @@
 {% load static%}
 
 <div class = 'container'>
-    <div class = 'my-4'>
-        P&ID of UNIT {{unit}}
-    
+    <div class = 'my-4 '>
+        
+        <div class="float-start h4">
+            P&ID of UNIT {{unit}}
+        </div>
+        
+        {% if user.is_authenticated %}
+        <div class="float-end">
+            <a href="{% url 'add_pid_url' %}"><button type="button" class = 'btn btn-primary'>Add a new P&ID</button></a>
+            
+            <button id = 'btn-del' type="button" class = 'btn btn-danger'>Delete P&ID</button>
+        </div>
+        {% endif %}
+
     </div>
+    <br>
     <div class ="h3 mt-3">
         {% for i in qs %}
-        <a href="{% get_media_prefix %}{{i.upload}}"> {{i.name}} </a> <br>
+        <div class = 'my-3 position-relative' >
+            <div class="position-absolute start-0">
+                <a href="{% get_media_prefix %}{{i.upload}}"> {{i.name}} </a> 
+            </div>
+            <div id="img-trash" class= 'position-absolute start-50' style="display: none;">
+                <a href="{% url 'delete_pid' pk=i.pk %}">
+                    <img src="{% static 'svg/trash.svg' %}" alt="Delete" />
+                </a>
+            </div>
+            <br>
+        </div>
+        
         {% endfor %}
     </div>
     
 </div>
-
-
+<style>
+    #img-trash{
+        display: none;
+        color: brown;
+    }
+</style>
+<script src= "{%static 'js/pidHome.js' %} "></script>
 {% endblock%}

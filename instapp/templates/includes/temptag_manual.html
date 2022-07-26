@@ -1,0 +1,5 @@
+
+{% for d in data %}
+<li> <a href="{% url 'man_pk_url' slug=d %}" class="dropdown-item"> {{d}} </a> </li>
+{% endfor %}
+
